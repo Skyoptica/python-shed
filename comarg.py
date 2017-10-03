@@ -1,4 +1,4 @@
-# Command Arguments Parser - v0.2
+# Command Arguments Parser - v0.3
 # by: Dylan Dwyer
 # ///////////////////////////////
 
@@ -7,7 +7,7 @@
 import sys, platform
 
 # adjust mode prefix for system conventions
-if platform.system is 'Windows':
+if 'windows' in str(platform.system).lower():
     platform_flag = "/"
 else:
     platform_flag = "-"
