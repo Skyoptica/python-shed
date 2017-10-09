@@ -2,7 +2,7 @@
 # by: Dylan Dwyer
 # ///////////////////////////////
 
-# !!! - this module is somewhat delicate and expects users to not be idiots
+# !!! - this module is deprecated by the built in argparse...
 
 import sys, platform
 
